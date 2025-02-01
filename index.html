@@ -5,23 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Healthy food shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .manrope-font {
+            font-family: "Manrope", serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+        }
+    </style>
 </head>
 
-<body>
+<body class="manrope-font">
     <header class="max-w-7xl mx-auto md:px-9 lg:px-o space-y-4  ">
-        <nav class="mt-8 space-y-8">
+        <nav class="mt-4">
             <div class="navbar bg-base-100 px-4">
                 <div class="navbar-start">
 
                     <img class="" src="img/logo-header.png" alt="">
                 </div>
                 <div class="navbar-center hidden lg:flex ">
-                    <ul class="menu menu-horizontal px-1">
+                    <ul class="menu menu-horizontal px-1 text-lg ">
                         <li><a>Product</a></li>
                         <li><a>Services</a></li>
                         <li><a>Contact Us</a></li>
@@ -45,18 +58,19 @@
 
                 </div>
             </div>
-            <hr class="border-1 border-green-600 visible lg:invisible">
+            <hr class="border-1 border-green-600 visible lg:invisible mt-3">
         </nav>
         <section class=" ">
-            <h1 class="lg:text-7xl text-3xl w-2/3 text-center mx-auto ">Freshness <span class="text-green-700">You Can
+            <h1 class="lg:text-7xl text-3xl w-2/3 text-center mx-auto font-bold ">Freshness <span
+                    class="text-green-700">You Can
                     Count On</span>, Prices You’ll Love!</h1>
             <img class="mx-auto px-4" src="img/hero-vegetables.png" alt="">
         </section>
     </header>
     <main class="">
         <section class="max-w-7xl mx-auto md:px-9 lg:px-o my-10 ">
-            <h2 class="text-5xl text-green-600 my-9 font-semibold ">Services</h2>
-            <div class="  grid lg:grid-cols-3 gap-8 ">
+            <h2 class="text-5xl text-green-600 my-9 font-semibold px-4 lg:px-0 ">Services</h2>
+            <div class="  grid lg:grid-cols-3 gap-8 px-4 lg:px-0 ">
                 <div class="card bg-base-100  shadow-xl bg-[#EFEBE3] pt-8">
 
                     <div class=" p-4 rounded-full bg-white mx-auto">
@@ -99,7 +113,8 @@
             </div>
         </section>
         <section class=" bg-[#EFEBE3]">
-            <h2 class="text-5xl text-green-600  font-semibold max-w-7xl lg:mx-auto md:px-9 lg:px-o pt-9 mx-4 ">Popular Products
+            <h2 class="text-5xl text-green-600  font-semibold max-w-7xl lg:mx-auto md:px-9 lg:px-o pt-9 mx-4 ">Popular
+                Products
             </h2>
             <div class=" grid lg:grid-cols-[33%_auto] gap-4 max-w-7xl mx-auto md:px-9 py-9 lg:px-o ">
                 <div class=" p-4 pb-0 bg-gradient-to-br from-green-600 rounded-md mx-4 lg:mx-0">
@@ -114,7 +129,7 @@
                 </div>
                 <div class="grid lg:grid-cols-3 grid-cols-2 gap-4 mx-4 lg:mx-0 ">
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/tmt.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -123,7 +138,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/ptp.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -132,7 +147,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/onion.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -141,7 +156,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/tmt.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -150,7 +165,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/ptp.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -159,7 +174,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/onion.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -168,7 +183,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/tmt.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -177,7 +192,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/ptp.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -186,7 +201,7 @@
 
                     </div>
                     <div class="bg-white py-2 px-4 flex  items-center gap-2 rounded-lg">
-                        <img class="w-14" src="img/healthy.png" alt="">
+                        <img class="w-14" src="img/tmt.png" alt="">
                         <div>
                             <i class="fa-solid fa-star text-orange-400"></i>
                             <h6 class="text-xl font-semibold">Onion 1 KG</h6>
@@ -201,10 +216,11 @@
             </div>
         </section>
 
-        <section class="max-w-7xl mx-auto md:px-9 py-9 lg:px-o mb-56">
+
+        <section class="max-w-7xl mx-auto md:px-9  lg:px-o ">
             <h2 class="text-5xl text-green-600 my-9 font-semibold mx-4 ">Arrival & Offers</h2>
             <div class="grid lg:grid-cols-[60%_auto] gap-4 mx-4 lg:mx-0 ">
-                <div class="bg-green-950 grid grid-cols-2 p-4 items-center rounded-lg  ">
+                <div class="bg-green-950 grid grid-cols-2  items-center rounded-lg  ">
                     <div>
                         <img src="img/dawat-logo.png" alt="">
                         <button class="btn bg-green-300 mt-7 ml-4">Cook Exotic Dishes</button>
@@ -217,7 +233,7 @@
                     <div>
                         <img class="w-16 " src="img/india-gate-logo.png" alt="">
                         <button class="btn bg-blue-300 mt-7 ml-4">World’s No.1 Rice</button>
-                        <p class="text-xl text-white ml-4 mt-3">UP to <strong>40%  OFF</strong> </p>
+                        <p class="text-xl text-white ml-4 mt-3">UP to <strong>40% OFF</strong> </p>
                     </div>
                     <img class="w-32 " src="img/india-gate-mock-up.png" alt="">
 
@@ -225,79 +241,116 @@
 
             </div>
         </section>
-        <footer class="bg-green-600 ">
-            <section class="max-w-7xl mx-auto md:px-9 py-9 lg:px-o relative ">
-                <div class="absolute -top-48 -left-1 w-full">
-                    <div class="grid lg:grid-cols-2 bg-[#EFEBE3] p-4 items-center text-center lg:text-left mx-4 rounded-lg w-">
-                        <img class="mx-auto" src="img/vegetable-busket.png" alt="">
-                        <div class="flex flex-col">
-                            <h4 class="text-3xl mb-2 font-bold ">Get Grocery News!</h4>
-                            <p class="text-lg mb-4">Exclusive training tips, ticks, product deals and more.</p>
-                            <input type="mail" placeholder="Enter Mail" class="p-2 bg-white text-gray-400 mb-3 lg:w-96 rounded-lg ">
-                            <button class="btn bg-green-600 text-white w-36 mx-auto "> Subscribe</button>
+        <section class="max-w-7xl mx-auto md:px-9 py-9 lg:px-o mb-56">
+            <h2 class="text-5xl text-green-600 my-9 font-semibold mx-4 ">Ratting</h2>
+            <div class="grid lg:grid-cols-3 gap-4">
+                <div class="card bg-base-100  shadow-xl pt-4 mx-4">
+                    <div class="avatar mx-auto">
+                        <div class="w-24 rounded-full">
+                            <img src="img/handsome-businessman-suit-glasses-cross-arms-chest-look.jpg" />
                         </div>
                     </div>
+                    <div class="card-body items-center text-center">
+                        <ul class="flex gap-1">
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                        </ul>
+                        <h2 class="card-title">Mr. Kanai miya</h2>
+                        <p>best healthy food delivery company, I have been taking food for 2 years.</p>
+
+                    </div>
+
                 </div>
-            </section>
-            <section class="">
-                
-                    <aside>
-                      <svg
-                        width="50"
-                        height="50"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        class="fill-current">
-                        <path
-                          d="M22.672 15.226l-2.432.811.841 2.515c.33 1.019-.209 2.127-1.23 2.456-1.15.325-2.148-.321-2.463-1.226l-.84-2.518-5.013 1.677.84 2.517c.391 1.203-.434 2.542-1.831 2.542-.88 0-1.601-.564-1.86-1.314l-.842-2.516-2.431.809c-1.135.328-2.145-.317-2.463-1.229-.329-1.018.211-2.127 1.231-2.456l2.432-.809-1.621-4.823-2.432.808c-1.355.384-2.558-.59-2.558-1.839 0-.817.509-1.582 1.327-1.846l2.433-.809-.842-2.515c-.33-1.02.211-2.129 1.232-2.458 1.02-.329 2.13.209 2.461 1.229l.842 2.515 5.011-1.677-.839-2.517c-.403-1.238.484-2.553 1.843-2.553.819 0 1.585.509 1.85 1.326l.841 2.517 2.431-.81c1.02-.33 2.131.211 2.461 1.229.332 1.018-.21 2.126-1.23 2.456l-2.433.809 1.622 4.823 2.433-.809c1.242-.401 2.557.484 2.557 1.838 0 .819-.51 1.583-1.328 1.847m-8.992-6.428l-5.01 1.675 1.619 4.828 5.011-1.674-1.62-4.829z"></path>
-                      </svg>
-                      <p>
-                        ACME Industries Ltd.
-                        <br />
-                        Providing reliable tech since 1992
-                      </p>
-                    </aside>
-                    <nav>
-                      <h6 class="footer-title">Social</h6>
-                      <div class="grid grid-flow-col gap-4">
-                        <a>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            class="fill-current">
-                            <path
-                              d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
-                          </svg>
-                        </a>
-                        <a>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            class="fill-current">
-                            <path
-                              d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-                          </svg>
-                        </a>
-                        <a>
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="24"
-                            height="24"
-                            viewBox="0 0 24 24"
-                            class="fill-current">
-                            <path
-                              d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-                          </svg>
-                        </a>
-                      </div>
-                    </nav>
-                  
+                <div class="card bg-base-100  shadow-xl pt-4 mx-4">
+                    <div class="avatar mx-auto">
+                        <div class="w-24 rounded-full">
+                            <img src="img/beautiful-young-man-student-businessman-jacket-holds-his-arms-crossed-isolated-light-grey-wall.jpg" />
+                        </div>
+                    </div>
+                    <div class="card-body items-center text-center">
+                        <ul class="flex gap-1">
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                        </ul>
+                        <h2 class="card-title">Mr. lebu miya</h2>
+                        <p>there food quality is good. they don't compromaise with the quality so you can buy from them. </p>
+
+                    </div>
+
+                </div>
+                <div class="card bg-base-100  shadow-xl pt-4 mx-4">
+                    <div class="avatar mx-auto">
+                        <div class="w-24 rounded-full">
+                            <img src="img/outdoor-businessman-having-his-arms-crossed.jpg" />
+                        </div>
+                    </div>
+                    <div class="card-body items-center text-center">
+                        <ul class="flex gap-1">
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                            <li><i class="fa-solid fa-star text-orange-400"></i></li>
+                        </ul>
+                        <h2 class="card-title">Mr. Lal miya</h2>
+                        <p>this company is too good. they give me fresh food all time</p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section class="max-w-7xl mx-auto md:px-9 py-9 lg:px-o relative ">
+            <div class="absolute -top-48 lg:-top-36 lg:-left-1 w-full">
+                <div
+                    class="grid lg:grid-cols-2 bg-[#EFEBE3] p-4 items-center text-center lg:text-left mx-4 rounded-lg w-">
+                    <img class="mx-auto" src="img/vegetable-busket.png" alt="">
+                    <div class="flex flex-col">
+                        <h4 class="text-3xl mb-2 font-bold ">Get Grocery News!</h4>
+                        <p class="text-lg mb-4">Exclusive training tips, ticks, product deals and more.</p>
+                        <input type="mail" placeholder="Enter Mail"
+                            class="p-2 bg-white text-gray-400 mb-3 lg:w-96 rounded-lg ">
+                        <button class="btn bg-green-600 text-white w-36 mx-auto "> Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-green-600 ">
+
+            <section
+                class="max-w-7xl mx-auto md:px-9 py-9 lg:px-o pt-80 lg:pt-44  grid lg:grid-cols-3 gap-4 items-end justify-between ">
+
+                <div class=" pl-4">
+                    <img src="img/logo-footer.png" alt="">
+                    <p class="text-white mt-5">Discover a world of treats, toys, and essentials handpicked for your
+                        furry friends</p>
+                </div>
+                <div class="lg:mx-auto pr-4 pl-4">
+                    <ul class="">
+                        <li class="text-white text-xl mt-5">Product</li>
+                        <li class="text-white text-xl mt-5">Services</li>
+                        <li class="text-white text-xl mt-5">contact</li>
+
+                    </ul>
+                </div>
+                <div class=" lg:ml-auto pl-4">
+                    <h6 class="text-xl text-white mb-3 ">Follow us</h6>
+                    <ul class="flex gap-5">
+                        <li><a href=""></a><i class="fa-brands fa-facebook text-white text-2xl"></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-instagram text-white text-2xl"></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-linkedin text-white text-2xl"></i></li>
+                        <li><a href=""></a><i class="fa-brands fa-google-plus-g text-white text-2xl"></i></li>
+                    </ul>
+                </div>
+
             </section>
         </footer>
     </main>
